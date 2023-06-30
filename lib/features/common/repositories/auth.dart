@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:incase_app/core/exceptions/failures.dart';
-import 'package:incase_app/core/singletons/storage.dart';
-import 'package:incase_app/core/utils/either.dart';
-import 'package:incase_app/features/common/bloc/auth/authentication_bloc.dart';
-import 'package:incase_app/features/common/domain/model/token_model.dart';
-import 'package:incase_app/features/common/domain/model/user.dart';
-import 'package:incase_app/features/common/repositories/global_request_repository.dart';
+import 'package:Incase/core/exceptions/failures.dart';
+import 'package:Incase/core/singletons/storage.dart';
+import 'package:Incase/core/utils/either.dart';
+import 'package:Incase/features/common/bloc/auth/authentication_bloc.dart';
+import 'package:Incase/features/common/domain/model/token_model.dart';
+import 'package:Incase/features/common/domain/model/user.dart';
+import 'package:Incase/features/common/repositories/global_request_repository.dart';
 
 class AuthRepository {
   final GlobalRequestRepository repo = GlobalRequestRepository();

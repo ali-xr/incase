@@ -1,10 +1,10 @@
 // ignore_for_file: avoid_catches_without_on_clauses, always_put_required_named_parameters_first, omit_local_variable_types
 
-import 'package:incase_app/core/exceptions/failures.dart';
-import 'package:incase_app/core/singletons/dio_settings.dart';
-import 'package:incase_app/core/singletons/storage.dart';
-import 'package:incase_app/core/singletons/storage_keys.dart';
-import 'package:incase_app/core/utils/either.dart';
+import 'package:Incase/core/exceptions/failures.dart';
+import 'package:Incase/core/singletons/dio_settings.dart';
+import 'package:Incase/core/singletons/storage.dart';
+import 'package:Incase/core/singletons/storage_keys.dart';
+import 'package:Incase/core/utils/either.dart';
 import 'package:dio/dio.dart';
 
 class GlobalRequestRepository {

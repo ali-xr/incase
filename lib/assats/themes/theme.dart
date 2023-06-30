@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:incase_app/assats/colors/colors.dart';
+import 'package:Incase/assats/colors/colors.dart';
 
 abstract class AppTheme {
   static ThemeData theme() => ThemeData(
@@ -70,8 +70,8 @@ abstract class AppTheme {
     color: white,
   );
   static const titleLarge = TextStyle(
-    fontSize: 13,
-    fontWeight: FontWeight.w600,
+    fontSize: 20,
+    fontWeight: FontWeight.w700,
     color: black,
   );
   static const bodyLarge = TextStyle(

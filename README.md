@@ -1,4 +1,4 @@
-# incase_app
+# Incase
 
 A new Flutter project.
 

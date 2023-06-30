@@ -1,4 +1,4 @@
-package com.example.incase_app
+package com.example.Incase
 
 import io.flutter.embedding.android.FlutterActivity
 

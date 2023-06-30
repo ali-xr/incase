@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:incase_app/assats/colors/colors.dart';
-import 'package:incase_app/features/common/widgets/w_scale.dart';
+import 'package:Incase/assats/colors/colors.dart';
+import 'package:Incase/features/common/widgets/w_scale.dart';
 
 class WButton extends StatelessWidget {
   final double? width;

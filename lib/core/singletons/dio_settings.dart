@@ -3,9 +3,9 @@ import 'dart:developer' as dev;
 import 'package:alice/alice.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:incase_app/assats/constants/app_constants.dart';
-import 'package:incase_app/assats/constants/storage_keys.dart';
-import 'package:incase_app/core/singletons/storage.dart';
+import 'package:Incase/assats/constants/app_constants.dart';
+import 'package:Incase/assats/constants/storage_keys.dart';
+import 'package:Incase/core/singletons/storage.dart';
 
 class DioSettings {
   BaseOptions _dioBaseOptions = BaseOptions(

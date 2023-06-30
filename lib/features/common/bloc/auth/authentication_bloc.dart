@@ -2,13 +2,13 @@ import 'dart:async';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:incase_app/features/common/domain/model/user.dart';
+import 'package:Incase/features/common/domain/model/user.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:incase_app/core/singletons/storage.dart';
-import 'package:incase_app/features/common/repositories/auth.dart';
+import 'package:Incase/core/singletons/storage.dart';
+import 'package:Incase/features/common/repositories/auth.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 part 'authentication_event.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:incase_app/assats/colors/colors.dart';
-import 'package:incase_app/features/common/widgets/w_scale.dart';
+import 'package:Incase/assats/colors/colors.dart';
+import 'package:Incase/features/common/widgets/w_scale.dart';
 
 class SocialMediaItem extends StatelessWidget {
   final Widget icon;

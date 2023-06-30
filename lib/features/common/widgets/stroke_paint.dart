@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:incase_app/utils/interpolate.dart';
+import 'package:Incase/core/utils/interpolate.dart';
 
 class StrokePaint extends CustomPainter {
   final double progress;

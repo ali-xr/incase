@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:incase_app/assats/colors/colors.dart';
-import 'package:incase_app/assats/themes/theme.dart';
-import 'package:incase_app/features/auth/presentation/pages/splash.dart';
+import 'package:Incase/assats/colors/colors.dart';
+import 'package:Incase/assats/themes/theme.dart';
+import 'package:Incase/features/auth/presentation/pages/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,9 +25,9 @@ class _MyAppState extends State<MyApp> {
     return AnnotatedRegion(
       value: const SystemUiOverlayStyle(
           statusBarColor: Colors.transparent,
-          systemNavigationBarColor: darkBlue,
-          statusBarIconBrightness: Brightness.light,
-          systemNavigationBarIconBrightness: Brightness.light),
+          systemNavigationBarColor: white,
+          statusBarIconBrightness: Brightness.dark,
+          systemNavigationBarIconBrightness: Brightness.dark),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'InCase',

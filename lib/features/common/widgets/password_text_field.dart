@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:incase_app/assats/constants/icons.dart';
-import 'package:incase_app/features/common/widgets/stroke_paint.dart';
-import 'package:incase_app/features/common/widgets/default_text_field.dart';
+import 'package:Incase/assats/constants/icons.dart';
+import 'package:Incase/features/common/widgets/stroke_paint.dart';
+import 'package:Incase/features/common/widgets/default_text_field.dart';
 
 class PasswordTextField extends StatefulWidget {
   final ValueChanged<String> onChanged;

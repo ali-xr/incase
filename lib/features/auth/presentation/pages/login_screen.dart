@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:incase_app/assats/constants/icons.dart';
-import 'package:incase_app/features/auth/presentation/pages/sign_up.dart';
-import 'package:incase_app/features/auth/presentation/widgets/sotial_media_item.dart';
-import 'package:incase_app/features/common/widgets/w_button.dart';
-import 'package:incase_app/features/common/widgets/w_scale.dart';
-import 'package:incase_app/navigation/widgets/navigation.dart';
-import 'package:keyboard_dismisser/keyboard_dismisser.dart';
+import 'package:Incase/assats/colors/colors.dart';
+import 'package:Incase/assats/constants/icons.dart';
+import 'package:Incase/features/auth/presentation/pages/sign_up.dart';
+import 'package:Incase/features/auth/presentation/widgets/sotial_media_item.dart';
+import 'package:Incase/features/common/widgets/w_button.dart';
+import 'package:Incase/features/common/widgets/w_scale.dart';
+import 'package:Incase/features/common/widgets/navigation.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -38,7 +39,12 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return KeyboardDismisser(
+    return AnnotatedRegion(
+      value: const SystemUiOverlayStyle(
+          statusBarColor: Colors.transparent,
+          systemNavigationBarColor: darkBlue,
+          statusBarIconBrightness: Brightness.light,
+          systemNavigationBarIconBrightness: Brightness.light),
       child: Scaffold(
         body: Container(
             decoration: const BoxDecoration(
@@ -86,7 +92,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         const SizedBox(height: 40),
                         WButton(
                           onTap: () {
-                            Navigator.push(
+                            Navigator.pushReplacement(
                                 context, fade(page: const SignUpScreen()));
                           },
                           text: 'Sign up free',

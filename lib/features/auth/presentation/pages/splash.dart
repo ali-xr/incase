@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:incase_app/assats/colors/colors.dart';
-import 'package:incase_app/assats/constants/icons.dart';
-import 'package:incase_app/features/auth/presentation/pages/login_screen.dart';
+import 'package:Incase/assats/colors/colors.dart';
+import 'package:Incase/assats/constants/icons.dart';
+import 'package:Incase/features/auth/presentation/pages/login_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
