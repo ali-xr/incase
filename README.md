@@ -1,16 +1,5 @@
 # Incase
 
-A new Flutter project.
+Incase is a startup creating mobile apps with 360° virtual mockups for construction professionals. Our platform offers virtual reality tours of projects before they are completed or repaired, with personalized customization options. This enhances customer engagement and is a game-changing solution for the industry.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://t.me/incase_for_president_techaward
