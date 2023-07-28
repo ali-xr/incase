@@ -1,6 +1,6 @@
+import 'package:Incase/features/building/pages/panorama_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:Incase/features/building/pages/look_apartment.dart';
 import 'package:Incase/features/common/widgets/navigation.dart';
 import 'package:Incase/features/common/widgets/w_button.dart';
 
@@ -231,12 +231,15 @@ class _SelectFlatState extends State<SelectFlat> {
             bottom: MediaQuery.of(context).padding.bottom + 16),
         onTap: () {
           Navigator.push(
-              context,
-              fade(
-                  page: LookApartment(
-                title:
-                    'Floor ${_floor[_selectedFloor]}, Room № ${_floor[_selectedRoom]}',
-              )));
+            context,
+            fade(
+              page: const PanoramaScreen(title: 'hello',),
+              // page: LookApartment(
+              //   title:
+              //       'Floor ${_floor[_selectedFloor]}, Room № ${_floor[_selectedRoom]}',
+              // ),
+            ),
+          );
         },
         text: 'Explore the Apartment',
         textStyle: Theme.of(context)
